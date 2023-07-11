@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.redcarpetup.saveaccesstoken.code_event.GetCodeEvent
+      CodeUri: C:\Users\shub8\github\save-access-token\save-access-token
+      Runtime: java11
+      Architectures:
+        - x86_64

@@ -13,6 +13,6 @@ public class GetCodeUtil {
                 }
             }
         }
-        throw  new RuntimeException();
+        return "Success";
     }
 }

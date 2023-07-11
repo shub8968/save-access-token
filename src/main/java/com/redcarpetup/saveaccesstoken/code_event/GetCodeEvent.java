@@ -17,6 +17,6 @@ public class GetCodeEvent implements RequestHandler<APIGatewayProxyRequestEvent,
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            return "";
+            return "Successful";
         }
     }
